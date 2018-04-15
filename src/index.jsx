@@ -8,7 +8,11 @@ import './assets/stylesheets/style.css'
 /****** ADD YOUR CODE AFTER THIS LINE ******/
 
 const Hello = () => (
-  <div>Moi maailma</div>
+  <div>
+    <h1>Moi maailma!</h1>
+    <img src="http://www.saratmd.com/files/2013/10/How-Empathy-Can-Change-Your-Life-and-Our-World-C.jpg" height="300" width="300"></img>
+  </div>
+
 );
 
 class App extends Component {
